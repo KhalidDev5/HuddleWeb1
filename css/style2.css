@@ -1,0 +1,262 @@
+/*----------------- Start of the Basic Element CSS Rules ---------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+/*----------------- End of the Basic Element CSS Rules ---------------------*/
+/*----------------- Start of the the top header CSS ---------------------*/
+/**************** top header *********************/
+#header {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url("images/bg-hero-desktop.svg");
+  min-height: 700px;
+  width: auto;
+  margin-bottom: 100px;
+}
+
+#header .bnr-header {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+#header .bnr-header .logo-btn {
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+#header .bnr-header .tryitfree {
+  width: 140px;
+  margin-top: 30px;
+  margin-right: 40px;
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/**************** End top header *********************/
+/**************** Start of info header *********************/
+#header .info-header {
+  display: inline-flex;
+  width: 100%;
+}
+
+#header .info-img {
+  width: 40%;
+  margin: 120px 50px 50px;
+  padding: 10px;
+}
+
+#header .info-img h1 {
+  margin: 30px 10px;
+  font-size: 2.6rem;
+  width: 90%;
+  font-family: 'Poppins-bold', sans-serif;
+}
+
+#header .info-img p {
+  margin: 25px 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+  line-height: 1.5;
+}
+
+#header .info-img .btn-free {
+  width: 160px;
+  margin: 30px 10px;
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  display: block;
+  padding: 15px 40px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#header .header-img {
+  width: 550px;
+  max-height: 450px;
+  margin: 100px auto;
+}
+
+/**************** End of info header *********************/
+/*----------------- Start of the the Servicses ---------------------*/
+#service {
+
+
+}
+
+.box {
+  margin: 50px auto;
+  padding: 5px;
+  width: 80%;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.txt-box {
+  margin: 10px auto 5px;
+  padding: 50px 30px;
+}
+
+.txt-box h1 {
+  font-size: 2rem;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.txt-box p {
+  width: 80%;
+  line-height: 1.7;
+  color: #555;
+}
+
+.box .img-2 {
+  width: 35%;
+  margin: 10px 100px 10px 10px;
+  padding: 20px;
+}
+
+.box img {
+  width: 35%;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+/*----------------- End of the the Servicses ---------------------*/
+/**************** Start the centered box get started *********************/
+.getstarted {
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+  border: 0px solid;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 45%;
+  top: 90px;
+  padding: 50px 20px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  background-color: #fff;
+}
+
+.getstarted h1 {
+  margin: 10px auto 50px;
+  font-size: 1.7rem;
+}
+
+.getstarted .try-big {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+
+.getstarted a {
+  margin: 30px auto 50px;
+}
+
+/**************** End of the centered box get started *********************/
+/****************  Start of footer *********************/
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  margin: 0px auto;
+  width: 100%;
+  height: 380px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+}
+
+.col {
+  width: 24%;
+  float: left;
+  margin: 40px 0 0px;
+  line-height: 1.5;
+}
+
+.ft-logo {
+  width: 80%;
+  margin: 15px 0 10px;
+}
+
+.col .img-icons {
+  text-align: left;
+  margin: 0px 20px;
+  padding-right: 10px;
+}
+
+.col .img-icons p {
+  margin-bottom: 10px;
+  margin: 1px 0 15px 10px;
+}
+
+.col ul {
+  margin: 100px auto;
+}
+
+.col ul li {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.col ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.col .st {
+  margin: 50px auto 90px;
+  text-align: left;
+}
+
+.col .st a {
+  margin: 50px auto;
+  text-align: left;
+  padding-right: .5em;
+  font-size: 2rem;
+}
+
+.p-copyright {
+  text-align: left;
+  padding: 1em;
+}
+
+.p-copyright span {
+  color: red;
+  text-decoration: overline;
+}
+
+/*****************End of footer *****************/
