@@ -115,8 +115,8 @@ p , a {
 
 #header .header-img {
   flex: 1;
-  max-height: 450px;
-  margin: 100px auto;
+  max-height: 400px;
+  margin: 100px 30px;
 }
 
 
